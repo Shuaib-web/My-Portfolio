@@ -37,6 +37,11 @@ h1 {
     
 }  
 
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
 p {
     
     font-weight: 500;
@@ -48,6 +53,12 @@ p {
     font-size: 15px;
     font-weight: 250;
     margin-right: 77px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
 }
 
 .hero-area {
