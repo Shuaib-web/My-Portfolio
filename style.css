@@ -61,6 +61,13 @@ p {
     padding: 80px;
 }
 
+.sub-section-extra {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px; 
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -106,5 +113,10 @@ p {
     margin: 10px;
     box-shadow: 5px 5px 20px rgb(225, 224, 224); 
     padding-left: 80px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
 }
 
