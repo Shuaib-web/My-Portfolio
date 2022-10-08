@@ -132,3 +132,7 @@ hr {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
