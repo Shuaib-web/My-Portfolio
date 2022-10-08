@@ -44,6 +44,12 @@ p {
     color: #ffffff;
 }  
 
+.subtext {
+    font-size: 15px;
+    font-weight: 250;
+    margin-right: 77px;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
