@@ -14,6 +14,11 @@ section {
     background-color: #1c1d24;
 }
 
+.Portfolio {
+    margin-left: 10px;
+    margin: 20px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -29,6 +34,10 @@ ul {
     font-size: 20px;
     margin: 25px;
 
+}
+
+li {
+    text-decoration: none;
 }
 
 h1 {
@@ -135,4 +144,11 @@ hr {
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
