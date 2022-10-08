@@ -100,3 +100,11 @@ p {
     margin-right: 10px;
 }
 
+.project-card {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(225, 224, 224); 
+    padding-left: 80px;
+}
+
