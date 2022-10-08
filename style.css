@@ -69,3 +69,12 @@ p {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #54535c;
+}
+
+.button:active {
+    background-color: #3d3c42;
+    color: #808080;
+}
+
