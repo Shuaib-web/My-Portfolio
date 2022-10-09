@@ -134,6 +134,32 @@ p {
 .project-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgb(225, 224, 224); 
+    padding-left: 80px;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+
+.project-card img {
+    position: relative;
+    right: 40px;
+    width: 100%;
+
+}
+
+hr {
+    position: relative;
+    right: 40px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -143,22 +169,16 @@ p {
     }
 } 
 
-.project-card {
-    width: 300px;
-    height: 500px;
-    margin: 10px;
-    box-shadow: 5px 5px 20px rgb(225, 224, 224); 
-    padding-left: 80px;
-}
 
-hr {
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid black ;
-}
+
+
 
 a {
     text-decoration: none;
+    color: #ffffff;
+}
+.contact-me {
+
     color: #ffffff;
 }
 
