@@ -10,3 +10,6 @@ This is my portfolio where I showcase my skills and talents so that employers so
 #### Tools
 
 The tools I used WERE HTML and css
+
+![Website-Screenshot](https://user-images.githubusercontent.com/72218203/194918823-2922e6c9-eddc-4bed-aef9-85f969e5cfda.png)
+
