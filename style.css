@@ -1,6 +1,10 @@
+/* This is the style for the body */
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #1c1d24;
 }
+/* This is the style for the section */
 
 section {
     background-color:  #1c1d24;
@@ -19,12 +23,15 @@ section {
     margin: 20px;
 }
 
+/* This is the design and styling for the navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
     padding: 20px;
 }
+/* This is the design and styling for the un-ordered list */
 
 ul {
     display: flex;
@@ -39,6 +46,7 @@ ul {
 li {
     text-decoration: none;
 }
+/* This is the design and styling for the headers and paragraphs  */
 
 h1 {
     font-size: 40px;
@@ -70,6 +78,13 @@ p {
     margin-right: 77px;
 }
 
+/* This is the design and styling for the hero area and text div */
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -77,11 +92,24 @@ p {
     align-items: center;
 }
 
-.hero-text {
-    margin-left: 80px;
-    margin-bottom: 150px;
+/* This is the design and styling for the wrapper */
+
+.wrapper{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border: 5px solid white;
+    border-radius: 50%;
+    left: 730px;
+    top: 170px;
+    background: url(./images/shuib.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    overflow: hidden;
+    
 }
 
+/* This is the design and styling for the button */
 .button {
     width: 170px;
     height: 50px;
@@ -103,6 +131,8 @@ p {
     background-color: #3d3c42;
     color: #808080;
 }
+
+/* This is the design and styling for the social media icons */
 
 .socials {
     padding-bottom: 200px;
@@ -138,6 +168,8 @@ p {
     justify-content: center;
 }
 
+/* This is the design and styling for the project cards */
+
 .project-card {
     width: 300px;
     height: 500px;
@@ -148,6 +180,7 @@ p {
     overflow: hidden;
 }
 
+/* This is the design and styling for the project image */
 
 .project-card img {
     position: relative;
@@ -162,6 +195,19 @@ hr {
     width: 100%;
 }
 
+.sub-section-extra h2 {
+    position: relative;
+    bottom: 50px;
+}
+
+.sub-section-extra {
+    position: relative;
+    bottom: 300px;
+    
+}
+
+
+
 @media only screen and (max-width: 1000px) {
 .project-container{
     display: flex;
@@ -169,9 +215,7 @@ hr {
     }
 } 
 
-
-
-
+/* This is the design and styling for the anchor tags and footer */
 
 a {
     text-decoration: none;
